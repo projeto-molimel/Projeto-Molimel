@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(../img/main-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #BA9D40;
+}
+
+.logo-molimel {
+    height: 50px;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+
+.nav-bar {
+    text-align: center;
+    margin-top: -35px;
+}
+
+.nav-bar > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+main {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-text {
+    height: 415px;
+    margin-top: 270px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.main-text .principal {
+    margin-bottom: 10px;
+}
+
+.welcome {
+    background-color: white;
+    color: #BA9D40;
+    font-style: italic;
+    font-size: 25px;
+    height: 900px;
+    margin-top: 110px;
+}
